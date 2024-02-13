@@ -1,0 +1,19 @@
+name = "ritual-allora-extension"
+version = "1.0.0"
+
+[permissions]
+
+
+[deployment]
+nodes = 1
+permissions = ["http://127.0.0.1:4000"]
+
+[build]
+dir = "build"
+entry = "ritual-allora-extension_debug.wasm"
+command = "npm run build:debug"
+
+[build_release]
+dir = "build"
+entry = "ritual-allora-extension.wasm"
+command = "npm run build:release"
