@@ -1,3 +1,3 @@
-# Blockless Hello World Example
+# Allora Ritual Extension
 
-This is a simple application that when deployed will repeat back the string given.
+Execute b7s inference requests against a ritual infernet node.
